@@ -5,12 +5,12 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/simplesteph/protobuf-example-go/src/complex"
-	"github.com/simplesteph/protobuf-example-go/src/enum_example"
+	complexpb "github.com/doraa7/protobuf-example-go/src/complex"
+	enumpb "github.com/doraa7/protobuf-example-go/src/enum_example"
 
+	simplepb "github.com/doraa7/protobuf-example-go/src/simple"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
-	"github.com/simplesteph/protobuf-example-go/src/simple"
 )
 
 func main() {
